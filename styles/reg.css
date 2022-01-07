@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/bg.png);
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Play', sans-serif;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/* header */
+
+.header {
+    width: 100%;
+}
+
+.container {
+    max-width: 1540px;
+    margin: 0 auto;
+    padding: 0 70px;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu__left {
+    padding: 0;
+    margin: 0 50px 0 0;
+}
+
+.menu__logo {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.menu__link {
+    font-size: 24px;
+    transition: 0.5s;
+}
+
+.menu__link:hover {
+    color: rgb(168, 168, 168);
+}
+
+.menu__right {
+    padding: 0;
+    margin-left: 50px;
+}
+
+.border {
+    transition: 0.5s;
+    border: 1px solid white;
+    padding: 16px 20px;
+    border-radius: 15px;
+}
+
+.border:hover {
+    background: white;
+    color: black;
+}
+
+/* body */
+
+.body {
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body__inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.body__content {
+    position: relative;
+    width: 600px;
+    height: 500px;
+    background: #2D2157;
+    padding: 25px 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+
+
+}
+
+.form__arrow {
+    transition: 0.3s;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    background: #6962BF;
+    padding: 15px 12px;
+    border-radius: 10px;
+}
+
+.form__arrow:hover {
+    background: #867bff;
+}
+
+.form__title {
+    position: absolute;
+    top: 50px;
+    margin: 0;
+    font-size: 48px;
+    color: white;
+}
+
+.form__mail {
+    margin-top: 104px;
+    margin-bottom: 25px;
+    height: 60px;
+    width: 450px;
+    border-radius: 10px;
+    border: 0;
+    background: #514896;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+.form__mail:focus {
+    outline: none;
+}
+
+.form__login:focus {
+    outline: none;
+}
+
+.form__login {
+    height: 60px;
+    width: 450px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    border: 0;
+    background: #514896;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+.form__password {
+    height: 60px;
+    width: 450px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    border: 0;
+    background: #514896;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+input::placeholder {
+    color: #B9B6D5;
+  }
+
+.form__password:focus {
+    outline: none;
+}
+
+.form__button {
+    transition: 0.3s;
+    padding: 14px 63px;
+    background: #6962BF;
+    border: 1px solid #6962BF;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.form__button:hover {
+    background: #867bff;
+}
+
+.form__reform {
+    transition: 0.5s;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.form__reform:hover {
+    color: rgb(168, 168, 168);
+}
+

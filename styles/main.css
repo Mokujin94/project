@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/bg.png);
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Play', sans-serif;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/* header */
+
+.header {
+    width: 100%;
+}
+
+.container {
+    max-width: 1540px;
+    margin: 0 auto;
+    padding: 0 70px;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu__left {
+    padding: 0;
+    margin: 0 50px 0 0;
+}
+
+.menu__logo {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.menu__link {
+    font-size: 24px;
+    transition: 0.5s;
+}
+
+.menu__link:hover {
+    color: rgb(168, 168, 168);
+}
+
+.menu__right {
+    padding: 0;
+    margin-left: 50px;
+}
+
+.border {
+    transition: 0.5s;
+    border: 1px solid white;
+    padding: 16px 20px;
+    border-radius: 15px;
+}
+
+.border:hover {
+    background: white;
+    color: black;
+}
+
+/* body */
+
+.body {
+    margin-top: 220px;
+    width: 100%;
+}
+
+.body__inner {
+    display: flex;
+}
+
+.body__title {
+    max-width: 764px;
+}
+
+.title {
+    color: white;
+    font-size: 72px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.subtitle {
+    font-size: 36px;
+    font-weight: normal;
+    color: #999999;
+    margin-top: 25px;
+}
